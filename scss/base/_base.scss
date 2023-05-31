@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap");
+
+body {
+  font: 400 16px $font-main;
+  background-color: $main-color;
+  color: $white;
+}
+
+.header-wrapper {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

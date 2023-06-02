@@ -1,0 +1,59 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.apartments {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1111px;
+  padding-top: 256px;
+  gap: 31px;
+  position: relative;
+
+  h2 {
+    font: 700 36px $font-extra;
+    color: $accent-color;
+    position: absolute;
+    top: 120px;
+    left: 0;
+  }
+
+  .apartments__item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    p {
+      font: 400 24px $font-main;
+      position: absolute;
+      top: 248px;
+      left: 50px;
+    }
+  }
+
+  .apartments__item-img1 {
+    background: url(../../img/apartments/loft-olimp-img.png) no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 320px;
+  }
+  .apartments__item-img2 {
+    background: url(../../img/apartments/loft-nice-img.png) no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 320px;
+  }
+  .apartments__item-img3 {
+    background: url(../../img/apartments/loft-studio-img.png) no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 320px;
+  }
+  .apartments__item-img4 {
+    background: url(../../img/apartments/loft-prestige.png) no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 320px;
+  }
+}

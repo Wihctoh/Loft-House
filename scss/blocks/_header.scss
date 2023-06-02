@@ -1,14 +1,153 @@
 header {
-  background: linear-gradient(
-      180deg,
-      #242b33 11.98%,
-      rgba(45, 52, 60, 0.38) 51.04%,
-      #242b33 92.19%
-    ),
-    url(../img/header/header-img.jpg) no-repeat;
-  background-size: cover;
-  width: 1920px;
-  height: 840px;
+  position: relative;
+
+  .header__bg-img {
+    background: linear-gradient(
+        180deg,
+        #242b33 11.98%,
+        rgba(45, 52, 60, 0.38) 51.04%,
+        #242b33 92.19%
+      ),
+      url(../img/header/header-img.jpg), no-repeat;
+    background-size: cover;
+    height: 840px;
+    width: 1920px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .header {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .header__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 30px;
+
+      .header__logo {
+        background: no-repeat url(../img/main-logo.svg);
+        background-size: cover;
+        width: 134px;
+        height: 66px;
+      }
+
+      nav {
+        font: 400 14px $font-main;
+
+        display: flex;
+        gap: 40px;
+      }
+    }
+
+    .header__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+      text-align: center;
+      padding-top: 200px;
+      width: 582px;
+
+      h1 {
+        font: 700 48px $font-extra;
+        line-height: 64px;
+        color: $accent-color;
+      }
+
+      .header__title-mouse {
+        background: url(../img/header/mouse-icon.svg) no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        margin-top: 80px;
+      }
+
+      .header__title-contacts {
+        display: flex;
+        align-self: flex-start;
+        gap: 98px;
+        padding-top: 200px;
+
+        .header__title-adress {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+
+          font: 400 18px $font-main;
+
+          .header__title-geo {
+            background: url(../img/header/geolocation-icon.svg) no-repeat;
+            background-size: cover;
+            width: 21px;
+            height: 21px;
+          }
+        }
+
+        .header__title-phone {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+
+          font: 400 18px $font-main;
+
+          .header__title-phone-img {
+            background: url(../img/header/phone-call-icon.svg) no-repeat;
+            background-size: cover;
+            width: 21px;
+            height: 21px;
+          }
+        }
+      }
+    }
+
+    .header__footer {
+      padding-top: 195px;
+      max-width: 794px;
+      display: flex;
+      align-self: center;
+      text-align: center;
+      column-gap: 70px;
+
+      .header__footer-advantages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          font: 20px 300 $font-roboto;
+          line-height: 27px;
+          padding-top: 53px;
+        }
+      }
+
+      .header__footer-img1 {
+        background: url(../img/header/bench.svg) no-repeat;
+        width: 80px;
+        height: 80px;
+      }
+      .header__footer-img2 {
+        background: url(../img/header/building.svg) no-repeat;
+        width: 80px;
+        height: 80px;
+      }
+      .header__footer-img3 {
+        background: url(../img/header/fountain.svg) no-repeat;
+        width: 80px;
+        height: 80px;
+      }
+      .header__footer-img4 {
+        background: url(../img/header/bicycle.svg) no-repeat;
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
 }
-
-

@@ -2,12 +2,18 @@
 
 body {
   font: 400 16px $font-main;
+  font-style: normal;
   background-color: $main-color;
   color: $white;
+  width: 1920px;
+  margin: 0 auto;
 }
 
-.header-wrapper {
-  width: 1140px;
-  padding: 0 15px;
-  margin: 0 auto;
+a {
+  color: $white;
+
+  &:hover {
+    transition: 1s;
+    color: $accent-color;
+  }
 }

@@ -95,6 +95,12 @@ body {
   margin: 0 auto;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 a {
   color: #fff;
 }
@@ -232,11 +238,6 @@ header .header .header__footer .header__footer-img4 {
   height: 80px;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-}
-
 .apartments {
   display: flex;
   flex-wrap: wrap;
@@ -286,4 +287,85 @@ main {
   background-size: cover;
   width: 540px;
   height: 320px;
+}
+
+.wanna-see {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  position: relative;
+}
+.wanna-see .wanna-see__bg-img {
+  background-image: url(../img/wanna-see/wanna-see-bg-img.png);
+  height: 560px;
+  width: 1920px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.wanna-see .wanna-see__data {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.wanna-see .wanna-see__data .wanna-see__data-discr {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  padding-top: 180px;
+}
+.wanna-see .wanna-see__data .wanna-see__data-discr h3 {
+  font: 700 36px "Playfair Display", serif;
+  color: #d4c17f;
+}
+.wanna-see .wanna-see__data .wanna-see__data-discr p {
+  font: 400 16px "Raleway", sans-serif;
+  color: #fff;
+  line-height: 24px;
+}
+.wanna-see .wanna-see__data .wanna-see__form {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 46px;
+  padding-top: 245px;
+  width: 540px;
+}
+.wanna-see .wanna-see__data .wanna-see__form input {
+  width: 255px;
+  height: 50px;
+  background-color: #fff;
+  opacity: 0.2;
+}
+.wanna-see .wanna-see__data .wanna-see__form input::-moz-placeholder {
+  font: 400 14px "Raleway", sans-serif;
+  text-align: center;
+  opacity: 1;
+  color: #bebebe;
+}
+.wanna-see .wanna-see__data .wanna-see__form input::placeholder {
+  font: 400 14px "Raleway", sans-serif;
+  text-align: center;
+  opacity: 1;
+  color: #bebebe;
+}
+.wanna-see .wanna-see__data .wanna-see__form input:last-child {
+  background-color: #d4c17f;
+  opacity: 1;
+}
+.wanna-see .wanna-see__data .wanna-see__form input:last-child::-moz-placeholder {
+  color: #fff;
+}
+.wanna-see .wanna-see__data .wanna-see__form input:last-child::placeholder {
+  color: #fff;
+}
+.wanna-see .wanna-see__data .wanna-see__form p {
+  font: 400 13px "Raleway", sans-serif;
+  line-height: 16px;
+  width: 255px;
+  text-align: center;
+  align-self: flex-end;
 }/*# sourceMappingURL=main.css.map */

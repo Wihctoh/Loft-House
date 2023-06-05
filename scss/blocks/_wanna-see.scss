@@ -32,6 +32,7 @@
         font: 400 16px $font-main;
         color: $white;
         line-height: 24px;
+        padding-top: 17px;
       }
     }
 
@@ -52,25 +53,28 @@
         &::placeholder {
           font: 400 14px $font-main;
           text-align: center;
-          opacity: 1;
           color: $placeholder-color;
-        }
-
-        &:last-child {
-          background-color: $accent-color;
-          opacity: 1;
-
-          &::placeholder {
-            color: $white;
-          }
         }
       }
       p {
         font: 400 13px $font-main;
         line-height: 16px;
         width: 255px;
-				text-align: center;
+        text-align: center;
         align-self: flex-end;
+      }
+      a:hover {
+        transition: none;
+        color: $white;
+      }
+      .wanna-see__form-btn {
+        font: 700 16px $font-main;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 255px;
+        height: 50px;
+        background-color: $accent-color;
       }
     }
   }

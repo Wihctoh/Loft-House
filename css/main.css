@@ -324,6 +324,7 @@ header .header .header__footer .header__footer-img4 {
   font: 400 16px "Raleway", sans-serif;
   color: #fff;
   line-height: 24px;
+  padding-top: 17px;
 }
 .wanna-see .wanna-see__data .wanna-see__form {
   display: flex;
@@ -343,24 +344,12 @@ header .header .header__footer .header__footer-img4 {
 .wanna-see .wanna-see__data .wanna-see__form input::-moz-placeholder {
   font: 400 14px "Raleway", sans-serif;
   text-align: center;
-  opacity: 1;
   color: #bebebe;
 }
 .wanna-see .wanna-see__data .wanna-see__form input::placeholder {
   font: 400 14px "Raleway", sans-serif;
   text-align: center;
-  opacity: 1;
   color: #bebebe;
-}
-.wanna-see .wanna-see__data .wanna-see__form input:last-child {
-  background-color: #d4c17f;
-  opacity: 1;
-}
-.wanna-see .wanna-see__data .wanna-see__form input:last-child::-moz-placeholder {
-  color: #fff;
-}
-.wanna-see .wanna-see__data .wanna-see__form input:last-child::placeholder {
-  color: #fff;
 }
 .wanna-see .wanna-see__data .wanna-see__form p {
   font: 400 13px "Raleway", sans-serif;
@@ -368,4 +357,17 @@ header .header .header__footer .header__footer-img4 {
   width: 255px;
   text-align: center;
   align-self: flex-end;
+}
+.wanna-see .wanna-see__data .wanna-see__form a:hover {
+  transition: none;
+  color: #fff;
+}
+.wanna-see .wanna-see__data .wanna-see__form .wanna-see__form-btn {
+  font: 700 16px "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 50px;
+  background-color: #d4c17f;
 }/*# sourceMappingURL=main.css.map */

@@ -370,4 +370,25 @@ header .header .header__footer .header__footer-img4 {
   width: 255px;
   height: 50px;
   background-color: #d4c17f;
+}
+
+.video-prev {
+  display: flex;
+  justify-content: center;
+  padding-top: 180px;
+  position: relative;
+}
+.video-prev .video-prev__img {
+  background: url(../img/video-prev/title.png) no-repeat;
+  background-size: cover;
+  width: 720px;
+  height: 650px;
+}
+.video-prev .video-prev__play-btn {
+  background: url(../img/video-prev/play-btn.svg) no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 455px;
 }/*# sourceMappingURL=main.css.map */
